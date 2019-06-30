@@ -1,0 +1,144 @@
+/* 
+ * Author: Yang.J
+ * Date:   16 June 2019
+ */
+
+/* fonts */
+@font-face{
+    font-family: 'PlayfairDisplay-Regular'; 
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+@font-face{
+    font-family: 'Ubuntu-Light'; 
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face{
+    font-family: 'PlayfairDisplay-Italic'; 
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf');
+}
+@font-face{
+    font-family: 'PlayfairDisplay-Black'; 
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Black.ttf');
+}
+@font-face{
+    font-family: 'PlayfairDisplay-Bold'; 
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf');
+}
+
+
+
+/* common */
+.container {margin: auto;}
+.w-1060 {width: 1060px;}
+.w-900 {width: 900px;}
+.w-660 {width: 660px;}
+.mb-135 {margin-bottom: 135px;}
+.bg-grey {background-color: #f5f5f5;}
+
+.first-img {width: 100%; height: auto; margin-bottom: 70px;}
+
+/* compnent */
+/* post */ 
+.post .title {margin-bottom: 28px;}
+.post .title .tag {display: block; font-family: "Ubuntu-Light"; font-size: 14px; color: #b4ad9e; text-transform: uppercase; margin-bottom: 20px;}
+.post .title h1 {font-family: "PlayfairDisplay-Regular"; font-size: 30px; color: #626262;}
+.post p {font-family: "PlayfairDisplay-Regular"; font-size: 14px; line-height: 24px; color: #626262; margin-bottom: 30px;}
+.post p b {font-family: "PlayfairDisplay-Black"; font-weight: normal;}
+.post .link-comment {display: block; font-family: "Ubuntu-Light"; font-size: 14px; color: #b4ad9e; text-transform: uppercase; padding-top: 20px;}
+.post blockquote {font-family: "PlayfairDisplay-Italic"; font-size: 14px; color: #626262; line-height: 24px; margin-left: 35px; margin-bottom: 30px;}
+.post .share {text-align: right;}
+.post .share span {display: inline-block; text-transform: uppercase; font-family: "Ubuntu-Light"; font-size: 13px; color: #b4ad9e; line-height: 17px;}
+.post .share a {display: inline-block; width: 18px; height: 17px; background-repeat: no-repeat; vertical-align: middle; background-position: center center; margin-left: 7px;}
+.post .share a.btn-fb {background-image: url(../img/btn-fb.png)}
+.post .share a.btn-tw {background-image: url(../img/btn-tw.png)}
+.post .share a.btn-gp {background-image: url(../img/btn-gp.png)}
+.post .share a.btn-tu {background-image: url(../img/btn-pu.png)}
+.post .share a.btn-pt {background-image: url(../img/btn-pt.png)}
+
+
+/* other-list */
+.other-list {display: flex; justify-content: space-between; flex-wrap: wrap;}
+.other-list-item {width: 420px;}
+.other-list-item img {width: 100%; height: 280px; margin-bottom: 25px;}
+.other-list-item .title {margin-bottom: 25px;}
+.other-list-item .title .tag {display: block; font-family: "Ubuntu-Light"; font-size: 14px; color: #b4ad9e; text-transform: uppercase; margin-bottom: 20px;}
+.other-list-item .title h3 {font-family: "PlayfairDisplay-Regular"; font-size: 30px; color: #626262;}
+.other-list-item p {font-family: "PlayfairDisplay-Regular"; font-size: 14px; line-height: 24px; color: #626262; height: 72px; overflow: hidden;}
+
+/* newsletter */
+.newsletter {height: 287px; background: #f0f0f0; text-align: center; margin-bottom: 100px;}
+.newsletter h2 {font-family: "PlayfairDisplay-Regular"; font-size: 30px; color: #333; padding-top: 62px; margin-bottom: 63px; letter-spacing: 1px;}
+.newsletter .sign-up {border-bottom: 1px solid #000; width: 400px; font-size: 0pc; letter-spacing: 0px; margin: auto; }
+.newsletter .sign-up input, .newsletter .sing-up input:focus {display: inline-block; outline: none; border: none; width: 368px; background: transparent; font-family: "PlayfairDisplay-Regular"; font-size: 14px; color: #626262; line-height: 46px; vertical-align: middle; height: 46px; padding-left: 5px;}
+.newsletter .sign-up button {display: inline-block; background-image: url(../img/icon_send.png); width: 32px; height: 17px; cursor: pointer; outline: none; border: none; background-color: transparent; vertical-align: middle;}
+
+/* loadmore */
+a.btn-more {display: block; border: 1px solid #000; font-family: "PlayfairDisplay-Regular"; font-size: 20px; color: #626262; line-height: 60px; width: 164px; height: 60px; text-align: center; margin: 25px auto;}
+a.btn-more:hover {background-color: #000; color: #fff; transition: 0.5s;}
+
+/* also-like */
+.also-like {padding-bottom: 60px;}
+.also-like h2 {font-family: "Ubuntu-Light"; font-size: 14px; color: #b4ad9e; text-transform: uppercase; padding-top: 70px; margin-bottom: 35px;}
+.also-like .also-like-list {display: flex; justify-content: space-between; flex-wrap: wrap;}
+.also-like .also-like-list .also-like-item {width: 274px; margin-bottom: 30px;}
+.also-like .also-like-list .also-like-item img {display: block; width: 100%; height: 182px; margin-bottom: 20px;}
+.also-like .also-like-list .also-like-item h3 {font-family: "PlayfairDisplay-Regular"; font-size: 20px; color: #626262;}
+
+/* comments */
+.comments {margin-top: 65px; margin-bottom: 93px;}
+.comments h2 {font-family: "Ubuntu-Light"; font-size: 14px; color: #b4ad9e; text-transform: uppercase; margin-bottom: 40px;}
+.comments .show li, .comments .new .write {display: flex; justify-content: space-between; margin-bottom: 50px;}
+.comments .show li .avatar, .comments .new .write .avatar {width: 70px; height: 70px; border-radius: 50%; overflow: hidden;}
+.comments .show li .avatar img, .comments .new .write .avatar img {display: block; width: 100%; height: 100%;}
+.comments .show li .text, .comments .new .write textarea {width: 790px; font-size: 14px; color: #626262;}
+.comments .show li .text h3 {font-family: "PlayfairDisplay-Bold"; margin-bottom: 8px;}
+.comments .show li .text p {font-family: "PlayfairDisplay-Regular"; line-height: 24px; margin-bottom: 17px;}
+.comments .show li .text a {font-family: "Ubuntu-Light"; color: #b4ad9e; text-transform: uppercase;}
+.comments .new .write textarea {font-family: "Ubuntu-Light"; color: #c8c8c8; text-transform: uppercase; line-height: 24px; padding-left: 30px; padding-top: 24px; padding-bottom: 24px;border-radius: 10px; width: 793px; height: 70px; overflow: hidden; resize: none;}
+.comments .new .write textarea:focus {outline: none;}
+
+.comments .connected {text-align: right;}
+.comments .connected span {display: inline-block; text-transform: uppercase; font-family: "Ubuntu-Light"; font-size: 14px; color: #b4ad9e; line-height: 17px;}
+.comments .connected a {display: inline-block; width: 18px; height: 17px; background-repeat: no-repeat; vertical-align: middle; background-position: center center; margin-left: 7px;}
+.comments .connected a.btn-fb {background-image: url(../img/btn-fb.png)}
+.comments .connected a.btn-tw {background-image: url(../img/btn-tw.png)}
+
+/* wrapper */
+.wrapper {display: flex; justify-content: space-between;}
+.wrapper .post {padding-left: 60px; overflow: hidden;}
+.wrapper .sidebar {width: 270px;}
+.wrapper .sidebar .aboutme {margin-bottom: 55px;}
+.wrapper .sidebar .aboutme .title {font-family: "PlayfairDisplay-Regular"; font-size: 24px; color: #626262; line-height: 20px; margin-top: 30px; margin-bottom: 20px;}
+.wrapper .sidebar .aboutme p {font-family: "PlayfairDisplay-Regular"; font-size: 12px; color: #626262; line-height: 20px; height: 75px; overflow: hidden;}
+.wrapper .sidebar .aboutme .icon a {display: inline-block; width: 18px; height: 17px; background-repeat: no-repeat; vertical-align: middle; background-position: center center; margin-top: 20px; margin-right: 5px;}
+.wrapper .sidebar .aboutme .icon .icon-fb {background-image: url(../img/btn-fb.png);}
+.wrapper .sidebar .aboutme .icon .icon-pt {background-image: url(../img/btn-pt.png);}
+.wrapper .sidebar .aboutme .icon .icon-ins {background-image: url(../img/icon_ins_02.png);}
+.wrapper .sidebar .topposts {margin-bottom: 85px;}
+.wrapper .sidebar .topposts h3 {font-family: "Ubuntu-Light"; color: #b4ad9e; text-transform: uppercase; font-size: 14px; margin-bottom: 25px;}
+.wrapper .sidebar .topposts ul .list {margin-bottom: 15px;}
+.wrapper .sidebar .topposts ul .list::before {content: ""; display: inline-block; vertical-align: top; margin-right: 12px; width: 5px; height: 5px; border-radius: 50%; background-color: #b4ad9e; margin-top: 9px;}
+.wrapper .sidebar .topposts ul .list .wr-ct {display: inline-block; vertical-align: top;}
+.wrapper .sidebar .topposts ul .list a {font-family: "PlayfairDisplay-Regular"; font-size: 16px; color: #626262; display: block;}
+.wrapper .sidebar .topposts ul .list span {font-family: "Ubuntu-Light"; color: #b4ad9e; text-transform: uppercase; font-size: 12px;}
+
+
+/* header */
+header {height: 164px;}
+header .container {display: flex; justify-content: space-between; align-items: center; height: 100%;}
+header .container .logo {display: block;}
+header .container nav ul {display: flex; justify-content: flex-end;}
+header .container nav ul li {margin-left: 100px;}
+header .container nav ul li a {font-family: "PlayfairDisplay-Regular"; font-size: 14px; color: #626262; text-transform: uppercase;}
+
+/* footer */
+footer {height: 97px; background: #f0f0f0;}
+footer .container {display: flex; height: 100%; justify-content: space-between; align-items: center; font-family: "PlayfairDisplay-Regular"; font-size: 14px; color: #626262;}
+footer .container .links {padding-left: 58px;}
+footer .container .links a {font-family: "PlayfairDisplay-Regular"; font-size: 14px; color: #000; margin-left: 17px;}
+footer .container .follows {display: flex; justify-content: flex-end; align-items: center;}
+footer .container .follows a {display: block; width: 18px; height: 15px; background-position: center center; background-repeat: no-repeat; margin-left: 16px;}
+footer .container .follows a.icon-fb{background-image: url(../img/icon_fb.png);}
+footer .container .follows a.icon-twt{background-image: url(../img/icon_twt.png);}
+footer .container .follows a.icon-ins{background-image: url(../img/icon_ins.png);}
